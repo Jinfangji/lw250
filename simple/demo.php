@@ -1,7 +1,7 @@
 ﻿<?php
 require 'MyPDO.class.php';
 $db = MyPDO::getInstance('localhost', 'root', 'root', 'laravel', 'utf8');
-
+$a  = 11;
 
 
  for ($i=1; $i<11; $i++) { 
